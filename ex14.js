@@ -1,4 +1,5 @@
 // 배열 확장 : 리스트 메소드 추가하기
+
 Array.prototype.insert = function(index, value){
     if(value instanceof Array){
         //for(var i = 0; i < value.length; i++){
